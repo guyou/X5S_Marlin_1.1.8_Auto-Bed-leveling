@@ -1774,4 +1774,7 @@
 // With this option servos are powered only during movement, then turned off to prevent jitter.
 //#define DEACTIVATE_SERVOS_AFTER_MOVE
 
+// Fix screen
+#define ST7920_DELAY_1 DELAY_2_NOP
+
 #endif // CONFIGURATION_H
